@@ -1,19 +1,20 @@
 import React from 'react'
 import {
-    Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    Card, CardBody,
+    CardTitle, CardSubtitle
 } from 'reactstrap';
 
 const WarsCard = (props) => {
     return (
         <div>
-            <Card>
-            
+            <Card key={props.id}>
                 <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button>Button</Button>
+                    <CardTitle>{props.name}</CardTitle>
+                    <CardSubtitle>Gender: {props.sex}</CardSubtitle>
+                    <CardSubtitle>Birth year:{props.born}</CardSubtitle>
+                    <CardSubtitle>Height: {props.height}</CardSubtitle>
+                    <CardSubtitle>Hair color:{props.hair}</CardSubtitle>
+                    <CardSubtitle>Eye color:{props.eyes}</CardSubtitle>
                 </CardBody>
             </Card>
         </div>

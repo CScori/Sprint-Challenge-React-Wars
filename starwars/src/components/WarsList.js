@@ -29,7 +29,7 @@ const WarsList = () => {
                 hair={data.hair_color}
                 eyes={data.eye_color}
                 sex={data.gender}
-                born={data.bith_year}
+                born={data.birth_year}
                 
                 />
                 )
