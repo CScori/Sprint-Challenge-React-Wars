@@ -21,7 +21,20 @@ const WarsList = () => {
 
     return (
         <div>
-            
+            <div>
+            {char.map(data => {
+                return <WarsCard key={data.id}
+                name={data.name}
+                height={data.height}
+                hair={data.hair_color}
+                eyes={data.eye_color}
+                sex={data.gender}
+                born={data.bith_year}
+                
+                
+                />
+            })} 
+            </div>
         </div>
     )
 }
