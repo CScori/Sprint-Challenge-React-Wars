@@ -6,11 +6,11 @@ import {
 import styled from 'styled-components';
 
 const Sep = styled.div`
-    height: 300px;
-    width: 200px;
-    margin-left: 35%;
+    height: 400px;
+    width: 500px;
+    margin-left: 45%;
     margin-bottom: 50px;
-    padding-top: 10px;
+    padding-top: 100px;
     background: black;
     color: white;
     align-items: center;
